@@ -1,5 +1,6 @@
-// Function to download historical time-series of AAPl's stock price in CSV format
+import React from "react";
 
+// Function to download historical time-series of AAPl's stock price in CSV format
 function DownloadCSV () {
 
 
@@ -15,7 +16,7 @@ function downloadCSV(props) {
 
   return (
     <button onClick={downloadCSV}>
-      Click me and start exploring NASDAQ!
+        APPL's stock prices since 1980!
     </button>
   );
 
