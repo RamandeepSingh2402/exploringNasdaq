@@ -1,8 +1,6 @@
 import React from "react";
 import "../CSS/HomePage.css"
 import videobg from '../Media/Data_Grid.mp4';
-import DownloadCSV from "./DownloadCSV";
-
 function downloadOilCSV() {
     const oilURL = "https://data.nasdaq.com/api/v3/datasets/OPEC/ORB.csv";
     var link = document.createElement('a');
@@ -40,7 +38,7 @@ function HomePage () {
                                 Interested in Apples Stock Prices? <br /> Click the button below to download the CSV file with Apple prices since 1980
                             </p>
                             <button id="downloadApple" onClick={downloadAppleCSV}>
-                                APPL's
+                                APPL Stock Prices
                             </button>
                         </div>
                         <div id="opecOil">
