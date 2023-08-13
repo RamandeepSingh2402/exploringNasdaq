@@ -1,12 +1,45 @@
-#homePage {
-    background-color: aliceblue;
-    align-items: center;
-    
-    
+*{
+    margin: 0;
+    padding: 0;
 }
+h1 {
+    padding-bottom: 50px;
+}
+#backgroundVideo {
+    padding: 0;
+    display: block;
+    margin: auto;
+    overflow:hidden;
+    /* max-height: 50%;
+    max-width: 50%; */
+}
+#stocks {
+    display: flex;
+    background-color: transparent;
+    opacity: inherit;
+}
+#appleStocks, #opecOil{
+    width: 300px;
+    transition: box-shadow .3 s;
+    margin: 50px;
+    border-radius:10px;
+}
+#stocks button {
+    text-decoration: none;
+    background-color: aqua;
+}
+#appleStocks:hover, #opecOil:hover {
+    box-shadow: 10px 10px 10px red; 
+  }
 
-#downloadApple {
-    background-color: purple;
-    margin-top: 15px;
-
+#content {
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    margin-left: 20%;
+    margin-top: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
 }
